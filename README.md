@@ -39,29 +39,29 @@ SupplyChainManagement/
 
 ├── src/
 
-│   ├── main/
+│   │   ├── main/
 
-│   │   ├── java/org/jsp/supplychainmanagement/
+│   │   │   ├── java/org/jsp/supplychainmanagement/
 
-│   │   │   ├── controller/       # Controller layer (REST API Endpoints)
+│   │   │   │   ├── controller/       # Controller layer (REST API Endpoints)
 
-│   │   │   ├── entity/           # Entity classes (Supplier, Product, Customer, Order)
+│   │   │   │   ├── entity/           # Entity classes (Supplier, Product, Customer, Order)
 
-│   │   │   ├── dto/              # Data Transfer Objects (DTO)
+│   │   │   │   ├── dto/              # Data Transfer Objects (DTO)
 
-│   │   │   ├── repository/       # Repository layer (Spring Data JPA Repositories)
+│   │   │   │   ├── repository/       # Repository layer (Spring Data JPA Repositories)
 
-│   │   │   ├── service/          # Business logic (Service Layer)
+│   │   │   │   ├── service/          # Business logic (Service Layer)
 
-│   │   │   ├── dao/              # Data Access Objects (DAO Layer)
+│   │   │   │   ├── dao/              # Data Access Objects (DAO Layer)
 
-│   │   │   ├── SupplyChainApplication.java  # Main Application Class
+│   │   │   │   ├── SupplyChainApplication.java  # Main Application Class
 
 │   │
 
 │   ├── resources/
 
-│   │   ├── application.properties  # Database configurations
+│   │   │   ├── application.properties  # Database configurations
 
 │   │
 

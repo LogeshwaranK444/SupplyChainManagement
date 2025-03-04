@@ -1,29 +1,33 @@
 Supply Chain Management System
 
-Overview
+Overview:
 
-This project is a Supply Chain Management System built using Spring Boot. It provides an efficient way to manage suppliers, products, customers, and orders within a supply chain. The application follows a layered architecture to maintain modularity and scalability.
+•This project is a Supply Chain Management System built using Spring Boot. 
 
-Features
+•It provides an efficient way to manage suppliers, products, customers, and orders within a supply chain. 
 
-Manage Suppliers, Products, Customers, and Orders.
+•The application follows a layered architecture to maintain modularity and scalability.
 
-CRUD operations for all entities.
+Features:
 
-Follows Spring Boot best practices with DTO, DAO, Service, Repository, and Controller layers.
+•Manage Suppliers, Products, Customers, and Orders.
 
-Uses Spring Data JPA for database interaction.
+•CRUD operations for all entities.
 
-RESTful API endpoints for seamless integration.
+•Follows Spring Boot best practices with DTO, DAO, Service, Repository, and Controller layers.
 
-Tech Stack
+•Uses Spring Data JPA for database interaction.
 
-Backend: Java, Spring Boot
+•RESTful API endpoints for seamless integration.
 
-Database: PostgreSQL
+Tech Stack:
 
-ORM: Hibernate (JPA)
+•Backend: Java, Spring Boot
 
-Build Tool: Maven
+•Database: PostgreSQL
 
-Server: Tomcat (Spring Boot Embedded)
+•ORM: Hibernate (JPA)
+
+•Build Tool: Maven
+
+•Server: Tomcat (Spring Boot Embedded)

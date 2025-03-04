@@ -36,18 +36,33 @@ Tech Stack:
 Project Structure
 
 SupplyChainManagement/
+
 ├── src/
+
 │   ├── main/
+
 │   │   ├── java/org/jsp/supplychainmanagement/
+
 │   │   │   ├── controller/       # Controller layer (REST API Endpoints)
+
 │   │   │   ├── entity/           # Entity classes (Supplier, Product, Customer, Order)
+
 │   │   │   ├── dto/              # Data Transfer Objects (DTO)
+
 │   │   │   ├── repository/       # Repository layer (Spring Data JPA Repositories)
+
 │   │   │   ├── service/          # Business logic (Service Layer)
+
 │   │   │   ├── dao/              # Data Access Objects (DAO Layer)
+
 │   │   │   ├── SupplyChainApplication.java  # Main Application Class
+
 │   │
+
 │   ├── resources/
+
 │   │   ├── application.properties  # Database configurations
+
 │   │
+
 ├── pom.xml  # Maven dependencies
